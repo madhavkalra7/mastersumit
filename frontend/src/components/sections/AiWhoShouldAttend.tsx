@@ -66,7 +66,7 @@ export default function AiWhoShouldAttend() {
       document.head.appendChild(style);
     }
 
-    const cardHtml = ({ title, subtitle, path }) => `
+    const cardHtml = ({ title, subtitle, path }: { title: string; subtitle: string; path: string }) => `
       <div style="
         flex-shrink: 0;
         width: 300px;
