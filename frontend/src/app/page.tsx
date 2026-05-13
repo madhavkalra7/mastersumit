@@ -6,8 +6,8 @@ import AnnouncementBar from '@/components/sections/AnnouncementBar';
 import Header from '@/components/sections/Header';
 import MobileMenu from '@/components/sections/MobileMenu';
 import AiBreatherSection from '@/components/sections/AiBreatherSection';
-import HeroSummit from '@/components/sections/HeroSummit';
-import HeroSection from '@/components/sections/HeroSection';
+import AiEducationHero from '@/components/sections/AiEducationHero';
+import AiStatsSection from '@/components/sections/AiStatsSection';
 import Robo from '@/components/sections/Robo';
 import SummitAgenda from '@/components/sections/SummitAgenda';
 import SummitAppearances from '@/components/sections/SummitAppearances';
@@ -33,8 +33,8 @@ export default function Page() {
         <Header />
         <MobileMenu />
         <AiBreatherSection />
-        <HeroSummit />
-        <HeroSection />
+        <AiEducationHero />
+        <AiStatsSection />
         <Robo />
         <AiBreatherSection />
         <SummitAgenda />

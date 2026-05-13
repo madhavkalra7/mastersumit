@@ -1,10 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
-// Core styles (includes fonts, root, mains, techmain, responsives, tablet etc.)
 import '@/styles/masters.css'
-// Menu/nav styles
 import '@/styles/menu.css'
-// Page-specific styles for The Next Tech summit
 import '@/styles/theNextTech.css'
 import Script from 'next/script'
 
