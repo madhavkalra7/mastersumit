@@ -1,0 +1,9 @@
+# Claude Code
+.claude/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Windows
+*.user
