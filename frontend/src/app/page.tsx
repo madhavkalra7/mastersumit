@@ -12,8 +12,7 @@ import Robo from '@/components/sections/Robo';
 import SummitAgenda from '@/components/sections/SummitAgenda';
 import SummitAppearances from '@/components/sections/SummitAppearances';
 import TechSpeaker from '@/components/sections/TechSpeaker';
-import SummitAwards from '@/components/sections/SummitAwards';
-import AiAwardsMobSection from '@/components/sections/AiAwardsMobSection';
+import AiAwardsShowcase from '@/components/sections/AiAwardsShowcase';
 import AiWhoShouldAttend from '@/components/sections/AiWhoShouldAttend';
 import AiWhyMustNotMiss from '@/components/sections/AiWhyMustNotMiss';
 import SummitPartners from '@/components/sections/SummitPartners';
@@ -43,8 +42,7 @@ export default function Page() {
         <AiWhyMustNotMiss />
         <SummitAppearances />
         <TechSpeaker />
-        <SummitAwards />
-        <AiAwardsMobSection />
+        <AiAwardsShowcase />
         <AiWhoShouldAttend />
         <SummitPartners />
         <TicketSection />
