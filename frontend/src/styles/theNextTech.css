@@ -1333,7 +1333,7 @@
         }
 
         .blueBtn {
-            background: #296BFF;
+            background: #e879f9;
         }
 
         .greyBtn {
@@ -1603,7 +1603,7 @@
 
         .summitAgendaTab.active {
             color: var(--white);
-            background: #296BFF;
+            background: #e879f9;
         }
 
         .summitAgendaPanels {
@@ -2413,7 +2413,7 @@
         }
 
         .blueBtn {
-            background: #296BFF;
+            background: #e879f9;
         }
 
         .aiSubmitFolderHeading {

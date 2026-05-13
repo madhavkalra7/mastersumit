@@ -16,8 +16,8 @@ export default function AiStatsSection() {
       <div style={{ width: '100%', height: '1px', background: 'rgba(255,255,255,0.15)' }} />
 
       {/* Stats row */}
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '64px 24px' }}>
-        <div style={{ display: 'flex', flexWrap: 'nowrap', gap: '0' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '80px 24px' }}>
+        <div style={{ display: 'flex', flexWrap: 'nowrap', gap: '48px' }}>
           {stats.map((stat) => (
             <div
               key={stat.label}
@@ -27,14 +27,13 @@ export default function AiStatsSection() {
                 alignItems: 'center',
                 justifyContent: 'center',
                 textAlign: 'center',
-                minWidth: '140px',
-                padding: '0 32px',
+                minWidth: '160px',
               }}
             >
               <span
                 style={{
-                  fontSize: '48px',
-                  fontWeight: 700,
+                  fontSize: '56px',
+                  fontWeight: 800,
                   color: '#fff',
                   lineHeight: 1,
                   letterSpacing: '-0.02em',
@@ -44,12 +43,12 @@ export default function AiStatsSection() {
               </span>
               <span
                 style={{
-                  marginTop: '12px',
-                  fontSize: '13px',
+                  marginTop: '16px',
+                  fontSize: '14px',
                   fontWeight: 600,
                   color: '#d946ef',
                   textTransform: 'uppercase',
-                  letterSpacing: '0.2em',
+                  letterSpacing: '0.25em',
                 }}
               >
                 {stat.label}
