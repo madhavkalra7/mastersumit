@@ -22,7 +22,7 @@ export default function AiEducationHero() {
           inset: 0,
           zIndex: 0,
           backgroundImage:
-            'url(https://images.unsplash.com/photo-1540575460844-5dd955324335?w=1920&h=1080&fit=crop)',
+            'url(/aiworld.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
